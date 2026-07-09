@@ -603,7 +603,7 @@ function Home() {
           <div className="hero-overlay"></div>
         </div>
         <div className="hero-content">
-          <h1 className="hero-title">CGC UNIVERSITY</h1>
+          <h1 className="hero-title">VISHNU INSTITUTE OF TECHNOLOGY</h1>
           <p className="hero-description">
             Empowering Dreams, Creating Futures - Your Gateway to Success
           </p>

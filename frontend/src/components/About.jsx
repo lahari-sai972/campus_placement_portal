@@ -19,7 +19,7 @@ import {
   GitBranch,
   Code,
 } from "lucide-react";
-import collegeLogo from "../assets/cgc logo.png";
+import collegeLogo from "../cgc logo.png";
 import "./about.css";
 import fallbackContributors from "../assets/fallbackContributors.json";
 

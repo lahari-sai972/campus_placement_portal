@@ -7,7 +7,7 @@ import "./Chatbot.css"; // your CSS file
 const FAQ = [
     {
     triggers: ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
-    response: "Hello 👋! Welcome to <b>Campus Recruitment Portal of CGC University Jhanjeri</b>. How can I help you today?",
+    response: "Hello 👋! Welcome to <b>Campus Recruitment Portal of vishnu institute of technology Jhanjeri</b>. How can I help you today?",
   },
   {
     triggers: ["thanks", "thank you", "thx"],
@@ -142,14 +142,14 @@ const Chatbot = () => {
         <div className="chatbot-window open">
           <div className="chatbot-header">
             <img 
-  src="/default-logo.png" 
+  src="/default-logo.jpeg" 
   alt="Campus Recruitment Portal Logo" 
   className="chatbot-header-logo" 
 />
             <span>Campus Recruitment Portal</span>
             <button onClick={toggleChat}>
               <img
-                src="/close.png"
+                src="/close.jpeg"
                 alt="Close"
               />
             </button>
@@ -174,7 +174,7 @@ const Chatbot = () => {
               onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             />
             <button onClick={() => sendMessage()}>
-              <img src="/send.png" alt="Send" />
+              <img src="/send.jpeg" alt="Send" />
             </button>
           </div>
         </div>

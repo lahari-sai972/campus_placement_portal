@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Moon, Sun } from "lucide-react";
 import "./header.css";
-import collegeLogo from "../assets/cgc logo.png";
+import collegeLogo from "../cgc logo.png";
 import ConfirmAlert from "./ConfirmAlert";
 import JobListings from "./JobListings"; // Import JobListings component
 
